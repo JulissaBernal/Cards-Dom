@@ -2,9 +2,19 @@
     display: flex;
     justify-content: space-around;
     align-items:center;
-    
+}
+h1{
+    text-align: center;
 }
 .rojo{
-    background-color: #c8e3c5;
-    margin-bottom: 50px;
+    max-height: 350px;
+    background-color:#505045;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 50px;
+    color: white;
+}
+.rojo:hover{
+    transform: scale(1.1);
 }
